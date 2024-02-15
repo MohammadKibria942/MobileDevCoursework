@@ -70,7 +70,7 @@ class WeatherMapViewModel: ObservableObject {
         print("")
         
         // MARK:  add your appid in the url below:
-        if let url = URL(string: "https://api.openweathermap.org/data/3.0/onecall?lat=\(lat)&lon=\(lon)&units=metric&appid=4c417ac122200519577a3c9b05321546") {
+        if let url = URL(string: "https://api.openweathermap.org/data/3.0/onecall?lat=\(lat)&lon=\(lon)&units=metric&appid="INSERT API KEY HERE"") {
             let session = URLSession(configuration: .default)
             print("URL Done")
             
